@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The World of Witch Hat Atelier</title>
+    <link rel="icon" type="image/x-icon" href="c:\Users\kinga\OneDrive\Desktop\gdornevil projects\atelier-article\atelier-logo.png">
+    <link href="https://fonts.cdnfonts.com/css/enchanted-land" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="atelier.css" rel="stylesheet">
+</head>
+<body>
+    <header class="witch-hat-header">
+        <div class="header-conatainer">
+            <div class="main-header">
+                <h1 class="grimoire-title">
+                    Witch Hat Atelier Atlas
+                </h1>
+            </div>
+        </div>
+    </header>
+    <div class="book-container">
+        <div class="left-page">
+        </div>
+
+        <div class="right-page">
+            <div class="tab-container">
+                <h2 class="page-title">Atlas of Zozah</h2>
+                <div class="tabs-wrapper">
+                    <nav class="tabs">
+                        <button class="tab active" data-tab="locations">Locations</button>
+                        <button class="tab" data-tab="magic">Magic</button>
+                        <button class="tab" data-tab="spells">Spells</button>
+                        <button class="tab" data-tab="tools">Tools</button>
+                        <button class="tab" data-tab="bestiary">Bestiary</button>
+                        <button class="tab" data-tab="characters">Characters</button>
+                        <button class="tab" data-tab="plants">Plants</button>
+                        <button class="tab" data-tab="contraptions">Contraptions</button>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="tab-active content" id="locations">
+                <div class="content-section">
+                    <h2 class="section-title">
+                        The Zozah Peninsula as of the Manga
+                    </h2>
+                    <div class="map-container">
+                        <div class="map-aspect-wrapper">
+                            <img src="Map-of-Zozah.jpg" alt="Map of Zozah Peninsula" class="map-image">
+                            <div class="map-pin" style="top: 65.5%; left: 61%;" onclick="scrollToSection('village')">
+                                <div class="map-icon">V</div>
+                            </div>
+                            <div class="map-pin" style="top: 62%; left: 61%;" onclick="scrollToSection('atelier')">
+                                <div class="map-icon">Q</div>
+                            </div>
+                            <div class="map-pin" style="top: 28%; left: 42%;" onclick="scrollToSection('dadah-range')">
+                                <div class="map-icon">D</div>
+                            </div>
+                            <div class="map-pin" style="top: 61.4%; left: 52.3%;" onclick="scrollToSection('kalhn')">
+                                <div class="map-icon">K</div>
+                            </div>
+                            <div class="map-pin" style="top: 84%; left: 81.5%;" onclick="scrollToSection('tower')">
+                                <div class="map-icon">T</div>
+                            </div>
+                            <div class="map-pin" style="top: 59%; left: 57.5%;" onclick="scrollToSection('naakiwan-downs')">
+                                <div class="map-icon">N</div>
+                            </div>
+                            <div class="map-pin" style="top: 46.5%; left: 20.5%;" onclick="scrollToSection('argentgard')">
+                                <div class="map-icon">A</div>
+                            </div>
+                            <div class="map-pin" style="top: 43.3%; left: 42.5%;" onclick="scrollToSection('forest')">
+                                <div class="map-icon">F</div>
+                            </div>
+                            <div class="map-pin" style="top: 39.5%; left: 88.5%;" onclick="scrollToSection('cape-romonon')">
+                                <div class="map-icon">C</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+    
